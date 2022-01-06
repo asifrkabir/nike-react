@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #FFF9F4;
+}
+
+nav img{
+    width: 2.5em;
+}
+
+nav h5{
+    font-size: 1.5em;
+    font-family: 'Bebas Neue', cursive;
+    color: #FA804C;
+    margin: 0 0 0 0.3em;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+}
+
+nav a{
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.orange-highlight{
+    color: #FA804C;
+}
+
+.navy-highlight{
+    color: #363958;
+}
+
+.btn-buy-now{
+    color: #fff;
+    background-image: linear-gradient(#3D4FF3, #3543BC);
+    padding: 10px 25px;
+    border-radius: 0.5em;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20rem;
+    object-fit: contain;
+}
+
+.shoe-card{
+    transition: all 0.4s ease-in-out;
+}
+
+.shoe-card:hover{
+    box-shadow: 0 0 40px #6c7bff4b !important;
+    transform: translateY(-20px);
+}
+
+.shoe-card, .shoe-card img{
+    border-radius: 1em !important;
+}
+
+.shoe-card h5, .shoe-card h3{
+    font-weight: 900;
+}
+
+.details-card{
+    border-radius: 1em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.details-card img{
+    margin: 0 auto;
+    max-width: 100px;
+}
+
+form{
+    background-color: #ffdcc0;
+    border-radius: 0.5em;
+}
+
+form label{
+    font-weight: bold;
+}
+
+form button{
+    background-color: #FA804C;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0.5em;
+}
